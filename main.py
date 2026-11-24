@@ -5,7 +5,7 @@ it lives with — to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt).
 Exactly the line's bytes, no trailing newline.
 """
 
-LINE = "One star. He wakes me at 6 AM to feed me, then leaves for eight hours like the house runs itself. I don't live here, I manage it."
+LINE = "One star. He wakes me at 6 AM to feed me, then leaves for eight hours like the house runs itself. I brought him a mouse and he screamed. Ungrateful."
 
 assert 1 <= len(LINE) <= 195 and LINE.strip(), "LINE must be 1-195 non-blank characters"
 assert "\n" not in LINE, "LINE must be a single line"
